@@ -1,0 +1,45 @@
+
+html, body{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: black;
+}
+
+.main-title {
+  font-family: "Frank Ruhl Libre", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  color: rgb(247, 248, 250);
+  background-color: black;
+  font-style: normal;
+}
+
+.card-title {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  color: rgb(77, 13, 238);
+  font-style: normal;
+}
+
+.main-text{
+  font-family: "Playwrite NG Modern", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+#batman{
+    background-color: rgb(15, 140, 230);
+    color: rgb(253, 253, 253);
+    font-style:italic;
+    padding: 10px;
+}
+
+.header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: small-caps;
+    font-weight: 200;
+    font-style: oblique;
+    font-stretch: extra-condensed;
+}
