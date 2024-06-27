@@ -14,6 +14,9 @@ html, body{
   font-style: normal;
 }
 
+.p3{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .card-title {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -23,7 +26,7 @@ html, body{
 }
 
 .main-text{
-  font-family: "Playwrite NG Modern", cursive;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
@@ -33,7 +36,24 @@ html, body{
     background-color: rgb(15, 140, 230);
     color: rgb(253, 253, 253);
     font-style:italic;
-    padding: 10px;
+    padding: 5px;
+    margin-top: 10%;
+}
+
+#superman{
+  background-color: rgb(15, 140, 230);
+  color: rgb(253, 253, 253);
+  font-style:italic;
+  padding: 5px;
+  margin-top: 10%;
+}
+
+#spiderman{
+  background-color: rgb(15, 140, 230);
+  color: rgb(253, 253, 253);
+  font-style:italic;
+  padding: 5px;
+  margin-top: 10%;
 }
 
 .header{
