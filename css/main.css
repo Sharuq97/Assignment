@@ -58,6 +58,14 @@ html, body{
   margin-top: 10%;
 }
 
+#ironman{
+  background-color: rgb(15, 140, 230);
+  color: rgb(253, 253, 253);
+  font-style:italic;
+  padding: 5px;
+  margin-top: 10%;
+}
+
 .header{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-variant: small-caps;
@@ -74,9 +82,14 @@ html, body{
 }
 
 .flex-container > div {
-  background-color: #c62e2e;
+  background-color: #2eb7c6;
   margin: 10px;
-  padding: 15px;
+  padding: 5px;
+  width: 1000px;
   font-size: 20px;
-  color:aquamarine
+  color: rgb(247, 243, 243);
+}
+
+.mb-3 {
+color:beige;
 }
