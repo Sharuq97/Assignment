@@ -84,6 +84,7 @@ html, body{
 .flex-container > div {
   background-color: #2eb7c6;
   margin: 10px;
+  flex-shrink: initial;
   padding: 5px;
   width: 1000px;
   font-size: 20px;
