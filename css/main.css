@@ -36,11 +36,10 @@ html, body{
   max-width: 900px;
   overflow: hidden;
   background-position: center;
-  size: 10px;
+  size: 20px;
 }
 
 /* The 4 card titles*/
-
 .card-title {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -89,15 +88,31 @@ html, body{
     font-stretch: extra-condensed;
 }
 
-/* Flex Box */
-.flex-container > div {
+/*flexbox*/
+
+.flexbox-container {
   display: flex;
-  flex-direction: row;
-  background-color: brown;
-  margin: 15px;
-  padding: 20px;
-  font-size: 15px;
-  color: rgb(247, 243, 243);
+  justify-self: auto;
+  max-width: 100%;
+}
+
+.flexbox-item{
+  width: 100%;
+  margin: 10px;
+  border: 3px solid #000000;
+  background-color: rgba(243, 173, 120, 0.658);
+}
+
+.flexbox-item-1{
+  min-height: 100px;
+}
+
+.flexbox-item-2{
+  min-height: 100px;
+}
+
+.flexbox-item-3{
+  min-height: 100px;
 }
 
 /*queries section*/
