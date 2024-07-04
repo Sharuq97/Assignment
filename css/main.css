@@ -2,8 +2,15 @@
 html, body{
     margin-left: 5%;
     margin-right: 5%;
-    background-color: rgb(9, 10, 10);
+    background-color: black;
 }
+
+@media all and (max-width: 500px) {
+  body{
+    color: brown;
+  }
+}
+
 /*Singapore Maritime University (below nav-bar)*/
 .main-title {
   font-family: "Frank Ruhl Libre", serif;
@@ -22,8 +29,17 @@ html, body{
   font-optical-sizing: auto;
   font-weight: 150;
   font-style: normal;
-  color: black;
 }
+
+#Carousel{
+  padding: 1%;
+  max-width: 900px;
+  overflow: hidden;
+  background-position: center;
+  size: 10px;
+}
+
+/* The 4 card titles*/
 
 .card-title {
   font-family: "Raleway", sans-serif;
@@ -36,7 +52,7 @@ html, body{
 #batman{
     background-color: rgb(230, 15, 15);
     color: rgb(253, 253, 253);
-    font-style:italic;
+    font-style: italic;
     padding: 5px;
     margin-top: 10%;
 }
@@ -44,7 +60,7 @@ html, body{
 #superman{
   background-color: rgb(230, 15, 15);
   color: rgb(253, 253, 253);
-  font-style:italic;
+  font-style: italic;
   padding: 5px;
   margin-top: 10%;
 }
@@ -52,7 +68,7 @@ html, body{
 #spiderman{
   background-color: rgb(230, 15, 15);
   color: rgb(253, 253, 253);
-  font-style:italic;
+  font-style: italic;
   padding: 5px;
   margin-top: 10%;
 }
@@ -60,7 +76,7 @@ html, body{
 #ironman{
   background-color: rgb(230, 15, 15);
   color: rgb(253, 253, 253);
-  font-style:italic;
+  font-style: italic;
   padding: 5px;
   margin-top: 10%;
 }
@@ -73,15 +89,18 @@ html, body{
     font-stretch: extra-condensed;
 }
 
+/* Flex Box */
 .flex-container > div {
+  display: flex;
+  flex-direction: row;
   background-color: brown;
-  margin: 10px;
-  padding: 5px;
-  width: 1000px;
-  font-size: 20px;
+  margin: 15px;
+  padding: 20px;
+  font-size: 15px;
   color: rgb(247, 243, 243);
 }
 
+/*queries section*/
 .mb-3 {
 color:rgb(0, 0, 0);
 }
