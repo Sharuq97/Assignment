@@ -31,9 +31,22 @@ html, body{
   font-style: normal;
 }
 
+/*content*/
+.custom-box {
+  background-color: brown;
+  border: 1px solid rgb(0, 0, 0);
+  color:azure;
+  padding: 10px;
+  font-size: 12px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
 #Carousel{
   padding: 1%;
-  max-width: 900px;
+  max-width: 1200px;
   overflow: hidden;
   background-position: center;
   size: 20px;
@@ -41,11 +54,15 @@ html, body{
 
 /* The 4 card titles*/
 .card-title {
+  display: flex;
+  justify-content:flex-start;
+  flex-wrap: wrap;
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
   color: rgb(240, 17, 17);
   font-style: normal;
+  overflow: hidden;
 }
 
 #batman{
@@ -91,6 +108,7 @@ html, body{
 /*flexbox*/
 
 .flexbox-container {
+  flex-wrap: 400px;
   display: flex;
   justify-self: auto;
   max-width: 100%;
@@ -101,18 +119,18 @@ html, body{
   margin: 10px;
   border: 3px solid #000000;
   background-color: rgba(243, 173, 120, 0.658);
+  flex-wrap: wrap;
+  text-align: center;
+  padding-bottom: 0%;
 }
 
 .flexbox-item-1{
   min-height: 100px;
 }
 
-.flexbox-item-2{
+.flexbox-item-2{  
   min-height: 100px;
-}
-
-.flexbox-item-3{
-  min-height: 100px;
+  flex-shrink: 0.8;
 }
 
 /*queries section*/
